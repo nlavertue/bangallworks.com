@@ -1,0 +1,126 @@
+---
+---
+
+/*
+*******
+None of these variable are being imported anywhere, they're just here for your convenience.
+*******
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Hind|Montserrat');
+
+body{
+  margin: 0;
+}
+
+// Some Style Variables
+$primary-color: #36465f;
+$secondary-color: #464646;
+$error: #de3535;
+$success: #d5f5d7;
+
+$max-width: 960px;
+
+// Breakpoints. Use these in your media queries.
+$babybear: 321px;
+$mamabear: 769px;
+$papabear: 1140px;
+$monsterbear: 1300px;
+
+$font-size: 16px;
+$font-family: Helvetica, sans-serif;
+$alt-font-family: monospace;
+$font-color: #353535;
+
+/* Social Icons */
+$twitter: #78cdf0 !default;
+$facebook: #537bbd !default;
+$instagram: #517fa4 !default;
+$youtube: #d34836 !default;
+$snapchat: #fffc00 !default;
+$pinterest: #cb2027 !default;
+$google: #dd4b39 !default;
+
+section.main {
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 60px;
+}
+
+h1 {
+  margin-left: 10px;
+  font-size: 24px;
+  font-family: 'Hind', sans-serif;
+}
+
+.text-container {
+  padding: 0 10px;
+}
+
+p {
+  font-family: 'Montserrat', serif;
+  line-height: 22px;
+  margin-bottom: 20px;
+
+  &.center {
+    text-align: center;
+  }
+}
+
+a, a:visited {
+  color: #6fa8ce;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0 0 0 20px;
+  padding: 0;
+
+  li {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 26px;
+  }
+
+  li:before {
+      content: "-"; /* Insert content that looks like bullets */
+      padding-right: 8px;
+  }
+}
+
+@media all and (min-width: 320px) {
+  section.main, footer {
+    margin: 0 auto;
+    max-width: 800px;
+    padding-top: 60px;
+  }
+
+  .images {
+    margin-left: 10px;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+  }
+
+  .columns {
+    max-width: 500px;
+    -moz-column-count: 2;
+    -moz-column-gap: 0;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 0;
+  }
+}
+
+@media all and (min-width: 800px) {
+  img {
+    width: 600px;
+  }
+}
+
+footer {
+  padding: 0 10px;
+  margin: 0 auto;
+}

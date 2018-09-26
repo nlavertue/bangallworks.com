@@ -1,0 +1,6 @@
+title: bangallWorks
+tagline: Coworking &plus; Community Building
+url: https://bangallworks.com
+sass:
+ style: compressed
+exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
